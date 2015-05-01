@@ -1,0 +1,37 @@
+﻿#dropdown_menu { 
+	height: 1%; 
+	overflow: visible; 
+}
+body { 
+	text-align:center;
+}
+#wrapper {
+	text-align:left;
+	width: 998px;
+}
+#container { 
+	margin:0;
+	padding: 0;
+}
+#content {
+	width: auto;
+}
+#content_outer {
+	width: auto;
+}
+#content_inner {
+	width: auto;
+}
+table.poll {
+	width : auto;
+}
+.validate {
+	margin: 0;
+	padding: 0;
+}
+#form-login li {
+	background : #fff;
+}
+li {
+	background: none;
+}

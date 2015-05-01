@@ -1,0 +1,31 @@
+﻿#content_outer {
+	width: 99%;
+	margin:0;
+}
+#content {
+	width: auto;
+}
+.pagenav {
+	border: none;
+}
+.componentheading {
+	min-width: 550px;
+}
+#dropdown_menu li:hover ul,
+#dropdown_menu li.sfhover ul {
+   width: auto; 
+   height: auto;
+}
+#dropdown_menu li ul li:hover ul,
+#dropdown_menu li ul li.sfhover ul {
+	margin-left:92px;
+}
+#dropdown_menu li li a {
+   width: 8em; 
+}
+#dropdown_menu li:hover ul, #dropdown_menu li li:hover ul, #dropdown_menu li li li:hover ul {
+	left: auto;
+}
+#dropdown_menu {
+	overflow : visible;
+}

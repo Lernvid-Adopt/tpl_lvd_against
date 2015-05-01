@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>Against_LernVid.com</name>
+	<creationDate>28.01.2010</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>Copyright LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	<hr>
+	<h1 style="padding:10px;">Against by LernVid.com</h1>
+	<hr>
+	<p>Author <a href="http://lernvid.com" target="_blank">Lernvid.com - Lernvideos Tutorials Templates PSD-Files und mehr... </a>.</p>
+	<p style="padding:5px;">It's not allowed to delete the backlink to the autor. More informations: <a href="http://www.lernvid.com/lizenz.html" target="_blank">LernVid.com - Licence Infos</a></p>
+	<p>This template was published under Creative Commons Licence . More informations: <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">Creative Commons Lizenz Mulilanguage </a></p>
+	<p>LernVid.com wishes you much fun with the template.</a></p>
+	<p>Support under: <a href="http://www.board.lernvid.com" target="_blank">Supportforum - LernVid.com</a></p>	
+	<hr>
+	<img src="../templates/against_lernvid.com/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>fl/hg.swf</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+		<images>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/dropdown_menu.gif</filename>
+		<filename>images/dropdown_menu_container.gif</filename>
+		<filename>images/dropdown_menu_hover.gif</filename>
+		<filename>images/dropdown_menu_li_li.gif</filename>
+		<filename>images/dropdown_menu_li_li_hover.gif</filename>
+		<filename>images/dropdown_menu_li_li_parent.gif</filename>
+		<filename>images/dropdown_menu_parent.gif</filename>
+		<filename>images/dropdown_menu_parent_hover.gif</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/footer.gif</filename>
+		<filename>images/h3.gif</filename>
+		<filename>images/line.gif</filename>		
+		<filename>images/list.png</filename>
+		<filename>images/list_hover.png</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/nav.gif</filename>
+		<filename>images/nav_hover.gif</filename>
+		<filename>images/navigation.gif</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/right.gif</filename>
+		<filename>images/right_bottom.gif</filename>
+		<filename>images/right_top.gif</filename>
+		<filename>images/search.gif</filename>
+		<filename>images/sep.gif</filename>
+		<filename>images/user_modules1.gif</filename>
+		<filename>params.ini</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>css/reset.css</filename>
+	</css>
+	<params>		
+		<param name="showFlashBg" type="radio" default="1" label="Show Flash BG?" description="Here you can on/off the animated Flash Background">
+		  <option value="1">ON</option>
+		  <option value="0">OFF</option>
+		</param>
+		<param type="spacer" default="CHOOSE YOUR LOGO" />
+		<param name="showTextLogo" type="radio" default="1" label="Text Logo or Image Logo" description="What Logo do you want to see?">
+		  <option value="1">Text Logo</option>
+		  <option value="0">Image Logo</option>
+		</param>
+		<param type="spacer" default="IF YOU CHOOSE TEXT LOGO" />
+		<param name="LogoText" type="textarea" rows="1" cols="40" default="Your Logo" label="Enter your LOGO Text" description="Here you can enter a LOGO Text"></param>
+		<param name="LogoSlogan" type="textarea" rows="1" cols="40" default="edit the parameters..." label="Enter your SLOGAN" description="Here you can enter a SLOGAN Text"></param>
+		<param type="spacer" default="COPYRIGHT INFO IN THE FOOTER" />
+		<param name="CopyrightInfo" type="textarea" rows="5" cols="40" default="Copyright Info - Enter the Template Parameters in the backend to edit this." label="Enter your CopyrightInfo" description="Here you can enter a copright descrition that will be visible in the bottom of the page. - You can also add an image with html code"></param>
+	</params>
+	<positions>
+		<position>dropdown_menu</position>
+		<position>top</position>
+		<position>debug</position>
+		<position>breadcrumb</position>
+		<position>footer</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+	</positions>
+</install>
